@@ -1,0 +1,23 @@
+﻿<Window x:Class="TereschenkoEA_VAR23.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TereschenkoEA_VAR23"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Name="box1" Height="23" Margin="172,83,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="231" TextChanged="box1_TextChanged" FontSize="14"/>
+        <TextBox HorizontalAlignment="Left" Name="box2" Height="23" Margin="172,128,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="231" TextChanged="box2_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Name="box3" Height="23" Margin="172,175,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="231" TextChanged="box3_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Name="box4" Height="23" Margin="172,221,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="231" PreviewTextInput="box4_PreviewTextInput"/>
+        <Label Content="Больница" HorizontalAlignment="Left" Margin="109,80,0,0" VerticalAlignment="Top"/>
+        <Label Content="ФИО врача" HorizontalAlignment="Left" Margin="100,125,0,0" VerticalAlignment="Top"/>
+        <Label Content="ФИО пациента" HorizontalAlignment="Left" Margin="81,172,0,0" VerticalAlignment="Top"/>
+        <Label Content="Номер в очереди" HorizontalAlignment="Left" Margin="65,218,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Name="block1" Margin="408,83,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="343" Height="23"/>
+        <TextBlock HorizontalAlignment="Left" Name="block2" Margin="408,128,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="343" Height="23"/>
+        <TextBlock HorizontalAlignment="Left" Name="block3" Margin="408,175,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="343" Height="23"/>
+
+    </Grid>
+</Window>
